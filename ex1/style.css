@@ -2,12 +2,18 @@ html {
   background-image: linear-gradient(to right, blue, lightpink);
   
 }
-h1 {
-	color: white;
-	background-color: rgba(0, 0, 0, 0.5);
+h1:hover{
+	text-decoration: underline;
 }
-p {
-	color: white;
-	background-color: rgba(0, 0, 0, 0.5);
+h1,p{
+	color:white; 
+	transition: transform 0.5s ease;
 }
 
+h1:hover,img:hover,p:hover{
+	transform: scale(1.1);
+}
+
+.box-shadow{
+	background-color: rgba(0, 0, 0, 0.5);
+}
