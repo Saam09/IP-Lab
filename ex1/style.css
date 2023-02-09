@@ -1,0 +1,13 @@
+html {
+  background-image: linear-gradient(to right, blue, lightpink);
+  
+}
+h1 {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+p {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
