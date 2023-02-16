@@ -1,0 +1,13 @@
+*{
+    background-color: skyblue;
+}
+.div-container{
+    text-align: center;
+    
+}
+table{
+    border-spacing: 10px 10px;
+}
+input[type="submit"]:hover,input[type="button"]:hover,input[type="reset"]:hover{
+background-color: #808080;
+}
