@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Shopping</title>
+    <style>
+        .box-shadow {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        h1:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function validate() {
+            var user = document.myform.usr.value;
+            var password = document.myform.pwd.value;
+            if (user == "" || password == "") {
+                alert("Both fields must be filled out");
+                document.myform.pwd.focus();
+                return false;
+            }
+            else {
+                alert("Valid");
+            }
+        }
+    </script>
+</head>
+
+<body align="center">
+    <div class="div-container">
+        <h1 class="box-shadow" style="color:white">S H O P P I N G</h1>
+        <table align="center" cellpadding="25">
+            <form name="myform">
+                <tr>
+                    <th><label for="username">Username:</label></th>
+                    <td>
+                        <input type="text" name="usr">
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="username">Password:</label></th>
+                    <td>
+                        <input type="password" name="pwd">
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <table align="center" cellpadding="20">
+            <tr>
+                <td>
+                    <form method="post">
+                        <input type="submit" value="Submit" onclick="validate()">
+                    </form>
+                </td>
+                <td>
+                    <form method="post" actpxion="welcome.html">
+                        <input type="button" value="Button">
+                    </form>
+                </td>
+                <td>
+                    <form method="post" action="welcome.html">
+                        <input type="reset" value="Reset">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rating"><b>Rate:</b></label>
+                </td>
+                <td colspan="2">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </td>
+            </tr>
+        </table>
+        <div style="padding-bottom: 20px">
+            <b>Who are you?</b>
+            <form>
+                <tr><input type="radio" id="gender" name="gender" value="male" /> Male</tr>
+                <br>
+                <input type="radio" id="gender" name="gender" value="female" /> Female <br />
+                <input type="radio" id="gender" name="gender" value="Robot" /> Robot <br />
+
+            </form>
+        </div>
+        <div style="padding-bottom: 20px">
+            <b>What do you like?</b>
+            <form>
+                <select name="options" id="cars">
+                    <option value="something">Something</option>
+                    <option value="nothing">Nothing</option>
+                    <option value="everything">Everything</option>
+                </select>
+            </form>
+        </div>
+        <div style="padding-bottom: 20px">
+            <b>Question?</b>
+            <form>
+                <tr><input type="checkbox" id="question" name="question" value="answer1" /> Answer1<br />
+                    <input type="checkbox" id="question" name="question" value="answer2" /> Answer2 <br />
+                    <input type="checkbox" id="question" name="question" value="answer3" /> Answer3 <br />
+
+            </form>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,7 +1,4 @@
-html {
-  background-image: linear-gradient(to right, blue, lightpink);
-  /* background-color: #F5F5DC; */
-}
+
 h1:hover{
 	text-decoration: underline;
 }
