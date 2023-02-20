@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body align="center">
+    <br /><b>
+        <script>
+            let arr1 = ["Samsung", "Apple", "BlackBerry", "Nokia", "Huawei"];
+            let arr2 = ["car", "bike", "bus"]
+            let arr3 = ["arr3", "banana", "carpet", "ocean", "balloon", "banana", "sandwich"]
+            let arr4 = arr1.concat(arr2, arr3)
+            document.write("Array 1:" + arr1 + "<br>");
+            document.write("Array 2:" + arr2 + "<br>");
+            document.write("Array 3:" + arr3 + "<br>");
+            document.write("Array 4:" + arr4 + "<br>");
+
+            document.write("<br>String Concatenation:<br>" + arr4);
+
+            var x = arr1.indexOf("Apple")
+            document.write("<br><br>Index of Apple in arr1: " + x);
+
+            document.write("<br><br>If car in arr2: " + arr2.includes("car"));
+
+            document.write("<br><br>Last Index of Banana: " + arr3.lastIndexOf("banana"));
+
+            document.write("<br><br>When arr1 is popped: " + arr1.pop());
+            document.write("<br>New arr1: " + arr1);
+
+            document.write("<br><br>OnePlus is pushed to arr1");
+            arr1.push("OnePlus")
+            document.write("<br>New arr1: " + arr1);
+
+            document.write("<br><br>Sorted arr1: " + arr1.sort());
+
+        </script>
+    </b>
+</body>
+
+</html>
