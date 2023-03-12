@@ -1,0 +1,26 @@
+h1:hover {
+    text-decoration: underline;
+}
+
+h1,
+p {
+    color: white;
+    transition: transform 0.5s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+.box-shadow {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    margin-left: 200px;
+    margin-top: 120px;
+}
+
+.elements {
+    margin-bottom: 50px;
+}
