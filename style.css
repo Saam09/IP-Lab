@@ -1,15 +1,17 @@
-h1:hover{
+h1:hover {
 	text-decoration: underline;
 }
-h1,p{
-	color:white; 
+
+h1,
+p {
+	color: white;
 	transition: transform 0.5s ease;
 }
 
-h1:hover,img:hover,p:hover{
+h1:hover {
 	transform: scale(1.1);
 }
 
-.box-shadow{
+.box-shadow {
 	background-color: rgba(0, 0, 0, 0.5);
 }
