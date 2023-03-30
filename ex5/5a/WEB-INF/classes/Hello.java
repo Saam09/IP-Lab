@@ -2,7 +2,7 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-public class HelloWorld extends HttpServlet {
+public class Hello extends HttpServlet {
 
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
